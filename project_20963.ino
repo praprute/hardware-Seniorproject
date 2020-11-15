@@ -219,7 +219,7 @@ void loop() {
         if(i == 2){
           HTTPClient http;   
           serializeJsonPretty(wifidetail, buffer);
-          http.begin("http://128.199.97.98:8000/api/dht11/tempsensor");
+          http.begin("http://{Your IP SERVER}:{PORT}/api/{ROUTING}");
           http.addHeader("Content-Type" , "application/json");
           int httpCode = http.POST(buffer);
           Serial.println(httpCode);
