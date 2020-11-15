@@ -1,0 +1,63 @@
+html {font-family: Arial; display: inline-block; text-align: center;}
+h2 {font-size: 2.0rem;}
+body {max-width: 600px; margin:0px auto; padding-bottom: 25px;}
+.button1 {
+    box-shadow: 0px 2px 1px -1px #f2fadc;
+    background-color:#dbe6c4;
+    border:1px solid #b2b8ad;
+    display:inline-block;
+    cursor:pointer;
+    columns: #757d6f;;
+    font-family:Arial;
+    font-size:18px;
+    padding:16px 43px;
+    text-decoration:none;
+    text-shadow:0px 0px 50px #ced9bf;
+  }
+.button1:hover {
+    background-color:#9ba892;
+  }
+.button1:active {
+    position:relative;
+    top:1px;
+  }
+.button2 {
+      box-shadow: 0px 2px 1px -1px #3dc21b;
+      background-color:#18c747;
+      border:1px solid #18ab29;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:18px;
+      padding:16px 39px;
+      text-decoration:none;
+      text-shadow:0px 0px 50px #2f6627;
+    }
+.button2:hover {
+      background-color:#33db46;
+    }
+.button2:active {
+      position:relative;
+      top:1px;
+    }
+.button3 {
+    box-shadow: 0px 2px 1px -1px #8a2a21;
+    background-color:#c62d1f;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:18px;
+    padding:16px 28px;
+    text-decoration:none;
+    text-shadow:0px 0px 50px #810e05;
+    }
+.button3:hover {
+    background-color:#f24437;
+    }
+.button3:active {
+    position:relative;
+    top:1px;
+    }
